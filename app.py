@@ -12,7 +12,7 @@ from sklearn.neighbors import KNeighborsClassifier
 # 1. Load dataset dari GitHub
 # ==========================
 
-DATA_URL = "https://raw.githubusercontent.com/USERNAME/REPO/main/customer_churn.csv"
+DATA_URL = "https://github.com/SupRill/Final-Project/blob/fba8159f45428f713a5d40064f6a3db59e2eace8/customer_churn_dataset-training-master.csv"
 
 @st.cache_data
 def load_data():
